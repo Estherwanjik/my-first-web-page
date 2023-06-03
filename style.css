@@ -1,0 +1,47 @@
+body {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;   
+}
+.right,.left {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+}
+.logo {
+    font-size: 24px;
+    color: #f9fAf8;
+
+}
+.container {
+    flex-direction: column;
+}
+.text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.message {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button {
+    color: #3882f6;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 8px;
+}
+a {
+    text-decoration: none;
+}
