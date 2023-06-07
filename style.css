@@ -1,21 +1,29 @@
 body {
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
+ flex-direction: column;
+ display: flex;
+ justify-content: center;
+
 
 }
 .header {
     display: flex;
     justify-content: center;
-    background-color: #1f2937;   
+    background-color: #1f2937; 
+    align-items: center;  
 }
-.right,.left {
+.right {
     display: flex;
-    align-items: center;
+    align-items: right;
     gap: 18px;
-
+    flex-direction: column;
 }
-.logo {
+.left {
+    display: flex;
+    align-items: left;
+    gap: 18px;
+    flex-direction: column;
+}
+.logo img {
     font-size: 24px;
     color: #f9fAf8;
 
@@ -23,25 +31,156 @@ body {
 .container {
     flex-direction: column;
 }
-.text {
+.title {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
-.message {
+.text {
     font-size: 18px;
-    color: #e5e7eb;
+    
 }
+
+.header .text {
+    color: #f9fAf8;
+}
+
+
 button {
-    color: #3882f6;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 30px;
+
 }
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    gap: 16px;
     display: flex;
-    gap: 8px;
+
 }
+li {display: flex;
+
+
+}
+
+
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.Element1 {
+    display: flex;
+    background-color: white;
+    gap: 30px;
+    flex-direction: column;
+    padding: 38px;
+    
+}
+.information {
+    
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    align-items: center;
+    display: flex;
+
+}
+.item {
+    max-width: 200px;
+    align-items: center;
+
+}
+.box {
+    flex-direction: row;
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+
+}
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 25px;
+}
+.header img {
+    width: 300px;
+    height: 125px;
+
+}
+.quote {
+    padding: 68px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+
+}
+.word {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+.owner {
+    font-weight: bolder;
+}
+
+.Element2 {
+    background-color: white;
+    display:flex;
+    padding: 68px;
+   
+}
+.jar {
+    display: flex;
+    background-color: #3882f6;
+    padding: 22px 330px;
+    flex-direction: column;
+    gap: 18px;
+}
+.jar .right
+
+
+
+
+.motivation {
+    font-size: 18px;
+    display: flex;
+    color: white;
+
+}
+.reach {
+    font-size: 14px;
+    display: flex;
+    color: white;
+
+}
+
+.Element2 button {
+    display: flex;
+    border-color: white;
+    margin: auto;
+    justify-content: last baseline;
+
+
+}
+.Footer {
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+
+
 }
