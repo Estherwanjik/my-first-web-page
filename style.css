@@ -2,29 +2,30 @@ body {
  flex-direction: column;
  display: flex;
  justify-content: center;
-
-
 }
 .header {
     display: flex;
     justify-content: center;
     background-color: #1f2937; 
-    align-items: center;  
+    align-items: center;
+    gap: 80px;
+    min-width: fit-content;
+    padding: 10px 10px;
+     
 }
 .right {
     display: flex;
     align-items: right;
-    gap: 18px;
+    gap: 48px;
     flex-direction: column;
 }
 .left {
     display: flex;
     align-items: left;
-    gap: 18px;
     flex-direction: column;
 }
 .logo img {
-    font-size: 24px;
+    /* font-size: 18px; */
     color: #f9fAf8;
 
 }
@@ -32,7 +33,7 @@ body {
     flex-direction: column;
 }
 .title {
-    font-size: 48px;
+    font-size: 24px;
     font-weight: bolder;
     color: #f9faf8;
 }
@@ -49,20 +50,19 @@ body {
 button {
     background-color: #3882f6;
     color: white;
-    border-radius: 30px;
+    border-radius: 6px;
 
 }
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    gap: 16px;
+    gap: 100px;
     display: flex;
 
 }
-li {display: flex;
-
-
+li {
+    display: flex;
 }
 
 
@@ -76,102 +76,105 @@ a {
     background-color: white;
     gap: 30px;
     flex-direction: column;
-    padding: 38px;
+    padding: 16px;
+    min-width: fit-content;
     
 }
 .information {
     
     justify-content: center;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: bolder;
     color: #1f2937;
     align-items: center;
     display: flex;
-
-}
-.item {
-    max-width: 200px;
-    align-items: center;
-
 }
 .box {
     flex-direction: row;
     display: flex;
-    gap: 28px;
+    gap: 58px;
     justify-content: center;
-
+    text-align: center;
 }
 img {
     width: 120px;
     height: 120px;
     border-radius: 25px;
+    border-color: blue;
+    border-style: solid;
+
 }
 .header img {
-    width: 300px;
-    height: 125px;
+    width: 330px;
+    height: 155px;
+    border-radius: 0;
+    border-style: hidden;
+
 
 }
 .quote {
-    padding: 68px;
+    padding: 18px;
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    gap: 18px;
+    max-height: 200px;
     justify-content: center;
     align-items: center;
-    gap: 18px;
-
 }
+
+.carrier {
+    max-width: 700px;
+}
+
 .word {
-    font-size: 36px;
+    font-size: 26px;
     font-weight: light;
     font-style: italic;
     color: #1f2937;
     justify-content: center;
     align-items: center;
-    display: flex;
-    
-    
+    display: flex; 
 }
 .owner {
     font-weight: bolder;
+    text-align: right;
 }
 
 .Element2 {
     background-color: white;
     display:flex;
-    padding: 68px;
+    padding: 18px;
+    justify-content: center;
    
 }
 .jar {
     display: flex;
     background-color: #3882f6;
-    padding: 22px 330px;
-    flex-direction: column;
-    gap: 18px;
+    gap: 65px;
+    padding: 18px 120px;
+
+
 }
-.jar .right
-
-
-
-
 .motivation {
     font-size: 18px;
     display: flex;
     color: white;
-
 }
 .reach {
     font-size: 14px;
     display: flex;
     color: white;
-
+}
+.jar .left {
+    gap: 2px;
 }
 
 .Element2 button {
     display: flex;
     border-color: white;
     margin: auto;
-    justify-content: last baseline;
+    align-items: right;
 
 
 }
@@ -179,8 +182,9 @@ img {
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 12px;
     display: flex;
+    color: white;
 
 
 }
